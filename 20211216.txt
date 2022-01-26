@@ -1,0 +1,5 @@
+2021.12.16
+
+(V)Data폼 Parent-Child 구조로 바꾸기
+(V)ListView->GridView로 바꾸고 DataGridView 연결
+(V)DataGridView는 여러가지 매개변수를 다 넣기
