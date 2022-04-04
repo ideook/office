@@ -53,3 +53,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-archives
+  
+ 
+# markdown:         redcarpet
+# highlighter:      pygments
