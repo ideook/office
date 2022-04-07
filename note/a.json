@@ -1,0 +1,109 @@
+{
+    "data": [
+      {
+        "projCd": "14154",
+        "projNm": "기흥역세권 도시개발사업 3-2블럭 신축공사",
+        "sheet": "실내마감재료표",
+        "elements": [
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "바닥",
+            "base": "배수판 위 무근콘크리트",
+            "finish": "에폭시 페인트"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "걸레받이",
+            "base": "",
+            "finish": ""
+          },
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "벽",
+            "base": "콘크리트 면손보기",
+            "finish": "수성페인트"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "천장",
+            "base": "콘크리트 면손보기",
+            "finish": ""
+          },
+          {
+            "step": "기본설계",
+            "roomName": "거실",
+            "element": "바닥",
+            "base": "판넬히팅",
+            "finish": "지정바닥마감"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "거실",
+            "element": "걸레받이",
+            "base": "콘크리트  OR 석고보드",
+            "finish": "PVC"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "거실",
+            "element": "벽",
+            "base": "콘크리트 OR 석고보드",
+            "finish": "벽 지"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "거실",
+            "element": "천장",
+            "base": "석고보드",
+            "finish": "천장지"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "침실",
+            "element": "바닥",
+            "base": "판넬히팅",
+            "finish": "지정바닥마감"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "침실",
+            "element": "걸레받이",
+            "base": "콘크리트  OR 석고보드",
+            "finish": "PVC"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "침실",
+            "element": "벽",
+            "base": "콘크리트 OR 석고보드",
+            "finish": "벽 지"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "침실",
+            "element": "천장",
+            "base": "석고보드",
+            "finish": "천장지"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "바닥",
+            "base": "콘크리트 위 시멘트모르타르",
+            "finish": "에폭시 페인트"
+          },
+          {
+            "step": "기본설계",
+            "roomName": "기계실",
+            "element": "천장",
+            "base": "콘크리트 면손보기",
+            "finish": "수성페인트"
+          }
+        ]
+      }
+    ]
+  }
