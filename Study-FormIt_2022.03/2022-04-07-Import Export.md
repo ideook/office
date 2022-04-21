@@ -20,7 +20,7 @@ Export 대상의 선택이 가능하다
 - FBX
 - OBJ
 - SAT
-- SKP: 스케치업 포맷
+- SKP : 스케치업 포맷
 - STL
 - As Image
 - As Video : ??

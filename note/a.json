@@ -1,109 +1,137 @@
 {
-    "data": [
-      {
-        "projCd": "14154",
-        "projNm": "기흥역세권 도시개발사업 3-2블럭 신축공사",
-        "sheet": "실내마감재료표",
-        "elements": [
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "바닥",
-            "base": "배수판 위 무근콘크리트",
-            "finish": "에폭시 페인트"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "걸레받이",
-            "base": "",
-            "finish": ""
-          },
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "벽",
-            "base": "콘크리트 면손보기",
-            "finish": "수성페인트"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "천장",
-            "base": "콘크리트 면손보기",
-            "finish": ""
-          },
-          {
-            "step": "기본설계",
-            "roomName": "거실",
-            "element": "바닥",
-            "base": "판넬히팅",
-            "finish": "지정바닥마감"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "거실",
-            "element": "걸레받이",
-            "base": "콘크리트  OR 석고보드",
-            "finish": "PVC"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "거실",
-            "element": "벽",
-            "base": "콘크리트 OR 석고보드",
-            "finish": "벽 지"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "거실",
-            "element": "천장",
-            "base": "석고보드",
-            "finish": "천장지"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "침실",
-            "element": "바닥",
-            "base": "판넬히팅",
-            "finish": "지정바닥마감"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "침실",
-            "element": "걸레받이",
-            "base": "콘크리트  OR 석고보드",
-            "finish": "PVC"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "침실",
-            "element": "벽",
-            "base": "콘크리트 OR 석고보드",
-            "finish": "벽 지"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "침실",
-            "element": "천장",
-            "base": "석고보드",
-            "finish": "천장지"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "바닥",
-            "base": "콘크리트 위 시멘트모르타르",
-            "finish": "에폭시 페인트"
-          },
-          {
-            "step": "기본설계",
-            "roomName": "기계실",
-            "element": "천장",
-            "base": "콘크리트 면손보기",
-            "finish": "수성페인트"
-          }
-        ]
-      }
-    ]
-  }
+  "data": [
+    {
+      "projCd": "15028",
+      "projNm": "하남시 지역현안사업1지구 공동주택 및 도서관 신축공사 설계용역",
+      "sheet": "실내마감재료표",
+      "elements": [
+        {
+          "step": "준공도서",
+          "roomName": "전기실",
+          "element": "바닥",
+          "base": "배수판 위 무근콘크리트",
+          "finish": "에폭시페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "전기실",
+          "element": "벽",
+          "base": "콘크리트 or",
+          "finish": "수성페인트 or 벽체배수판"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "전기실",
+          "element": "벽",
+          "base": "콘크리트(지중에 면하는 부위)",
+          "finish": "or 블럭쌓기+수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "전기실",
+          "element": "천장",
+          "base": "콘크리트 면손보기",
+          "finish": "수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "발전기실",
+          "element": "바닥",
+          "base": "배수판 위 무근콘크리트",
+          "finish": "에폭시페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "발전기실",
+          "element": "벽",
+          "base": "콘크리트 or",
+          "finish": "수성페인트 or 벽체배수판"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "발전기실",
+          "element": "벽",
+          "base": "콘크리트(지중에 면하는 부위)",
+          "finish": "or 블럭쌓기+수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "발전기실",
+          "element": "천장",
+          "base": "콘크리트 면손보기",
+          "finish": "수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "복도",
+          "element": "바닥",
+          "base": "배수판 위 무근콘크리트",
+          "finish": "에폭시페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "복도",
+          "element": "걸레받이",
+          "base": "콘크리트 or 블럭쌓기",
+          "finish": ""
+        },
+        {
+          "step": "준공도서",
+          "roomName": "복도",
+          "element": "벽",
+          "base": "콘크리트",
+          "finish": "수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "복도",
+          "element": "천장",
+          "base": "경량천장틀",
+          "finish": "지정천정재"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "복도",
+          "element": "바닥",
+          "base": "콘크리트 위|시멘트모르타르",
+          "finish": "에폭시페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "전기실",
+          "element": "천장",
+          "base": "콘크리트 면손보기",
+          "finish": "수성페인트|(기계실:무기질계뿜칠)"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "펌프실",
+          "element": "바닥",
+          "base": "무근콘크리트",
+          "finish": "에폭시페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "펌프실",
+          "element": "벽",
+          "base": "콘크리트 or",
+          "finish": "수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "펌프실",
+          "element": "벽",
+          "base": "콘크리트(지중에 면하는 부위)",
+          "finish": "수성페인트"
+        },
+        {
+          "step": "준공도서",
+          "roomName": "펌프실",
+          "element": "천장",
+          "base": "콘크리트 면손보기",
+          "finish": "수성페인트"
+        }
+      ]
+    }
+  ]
+}
