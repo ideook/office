@@ -33,6 +33,8 @@ SELECT * FROM CUSTOMER;
 
 ![](images/2022-04-21-11-42-30.png)
 
+
+
 ※ .gitignore ※
 
 이제 데이터베이스와 연동하는 작업을 처리하도록 하겠습니다. 기본적으로 데이터베이스 관련 정보는 Git Ignore 처리를 해서 깃 허브(Git Hub)에 올라가지 않도록 처리해야 합니다. 따라서 서버 프로그램의 .gitignore 파일을 다음과 같이 수정합니다.
@@ -42,7 +44,7 @@ SELECT * FROM CUSTOMER;
 /database.json
 ```
 
-이후에 database.json에서 데이터베이스 정보를 설정하시면 됩니다.
+이후 루트 폴더에 database.json 파일을 생성하고 데이터베이스 정보를 설정하시면 됩니다.
 
 ```json
 {
