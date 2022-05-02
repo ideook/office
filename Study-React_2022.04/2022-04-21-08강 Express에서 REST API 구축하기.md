@@ -63,9 +63,17 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 ![](images/2022-04-21-11-31-40.png)
 
-이후에 클라이언트(Client)에서 해당 API에 접근하여 고객 목록을 비동기적으로 가져오도록 만들면 됩니다. 가장 먼저 5000번 포트를 API 서버로 이용하기 위해서 클라이언트(Client)의 package.json 파일에 다음의 문구를 추가하시면 됩니다.
+이후에 클라이언트(Client)에서 해당 API에 접근하여 고객 목록을 비동기적으로 가져오도록 만들면 됩니다. 가장 먼저 5000번 포트를 API 서버로 이용하기 위해서 클라이언트(Client)의 package.json 최상단에 proxy 내용을 추가합니다.
 
-"proxy": "http://localhost:5000/"
+```json
+{
+  "proxy": "http://localhost:5000/",
+  "name": "management",
+  "version": "0.1.0",
+  ...
+}
+```
+
 
 이제 app.js 파일을 작성하여 실제로 API 서버에 접근할 수 있도록 처리하시면 됩니다.
 
@@ -74,32 +82,41 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 비동기적으로 API 요청 기능을 수행하기 위해서 async - await 구문을 사용했습니다. 서버로부터 JSON 데이터를 받아올 때까지는 테이블에 내용을 출력하지 않다가 데이터를 모두 받아왔을 때 비로소 테이블에 내용을 채우게 됩니다.
 
 ```js
-import React, { Component } from 'react';
-import Customer from './components/Customer'
-import './App.css';
-import Paper from '@material-ui/core/Paper';
-import Table from '@material-ui/core/Table';
-import TableHead from '@material-ui/core/TableHead';
-import TableBody from '@material-ui/core/TableBody';
-import TableRow from '@material-ui/core/TableRow';
-import TableCell from '@material-ui/core/TableCell';
-import { withStyles } from '@material-ui/core/styles';
+import React, { Component } from "react";
+import Customer from "./components/Customer";
+import "./App.css";
+import Paper from "@mui/material/Paper";
+import Table from "@mui/material/Table";
+import TableHead from "@mui/material/TableHead";
+import TableBody from "@mui/material/TableBody";
+import TableRow from "@mui/material/TableRow";
+import TableCell from "@mui/material/TableCell";
+import { createTheme } from "@mui/material/styles";
+import { withStyles } from "@mui/styles";
 
-const styles = theme => ({
+const customTheme = createTheme({
+  palette: {
+    primary: {
+      main: "#1976d2",
+      contrastText: "white",
+    },
+  },
+});
+
+const styles = () => ({
   root: {
     width: "100%",
-    marginTop: theme.spacing.unit * 3,
-    overflowX: "auto"
+    marginTop: customTheme.spacing.unit * 3,
+    overflowX: "auto",
   },
   table: {
-    minWidth: 1080
-  }
+    minWidth: 1080,
+  },
 });
 
 class App extends Component {
-
   state = {
-    customers: ''
+    customers: ""
   }
 
   componentDidMount() {
@@ -132,7 +149,7 @@ class App extends Component {
           <TableBody>
             {this.state.customers ? this.state.customers.map(c => {
               return <Customer key={c.id} id={c.id} image={c.image} name={c.name} birthday={c.birthday} gender={c.gender} job={c.job} />
-            }) : ''}
+            }) : <TableRow/>}
           </TableBody>
         </Table>
       </Paper>
@@ -143,7 +160,7 @@ class App extends Component {
 export default withStyles(styles)(App);
 ```
 
-이후에 yarn dev 명령어를 이용해 서버를 구동시킬 수 있습니다.
+이후에 `npm run dev` 명령어를 이용해 서버를 구동시킬 수 있습니다.
 
 ![](images/2022-04-21-11-35-17.png)
 
