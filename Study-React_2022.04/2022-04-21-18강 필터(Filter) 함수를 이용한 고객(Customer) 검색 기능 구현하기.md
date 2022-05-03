@@ -9,44 +9,44 @@ layout: post
 
 ▶ App.js
 
-기본적으로 검색 창에 사용자가 입력한 문자열을 스테이트(State)에 반영하기 위해서는 다음과 같은 값 변경 처리 함수가 필요합니다. 바로 함수를 만들어 보도록 하겠습니다.
+기본적으로 검색 창에 사용자가 입력한 문자열을 스테이트(State)에 반영하기 위해서는 다음과 같은 값 변경 처리 함수가 필요합니다. 바로 함수를 만들어 보도록 하겠습니다. `stateRefresh()` 함수 아래에 내용을 추가합니다.
 
 ```js
-  handleValueChange(e) {
-    let nextState = {};
-    nextState[e.target.name] = e.target.value;
-    this.setState(nextState);
-  }
+handleValueChange(e) {
+  let nextState = {};
+  nextState[e.target.name] = e.target.value;
+  this.setState(nextState);
+}
 ```
 
-이후에 생성자(Constructor)에서 이를 바인딩(Binding) 처리해주시면 됩니다.
+이후에 생성자(Constructor)에서 이를 바인딩(Binding) 처리를 하고 `searchKeyword` 값도 추가합니다.
 
 ```js
-  constructor(props) {
-    super(props);
-    this.state = {
-      customers: '',
-      completed: 0,
-      searchKeyword: ''
-    }
-    this.stateRefresh = this.stateRefresh.bind(this);
-    this.handleValueChange = this.handleValueChange.bind(this)
+constructor(props) {
+  super(props);
+  this.state = {
+    customers: '',
+    completed: 0,
+    searchKeyword: ''
   }
+  this.stateRefresh = this.stateRefresh.bind(this);
+  this.handleValueChange = this.handleValueChange.bind(this)
+}
 ```
 
-이후에 <InputBase>에서 다음과 같이 작성합니다.
+이후에 `<InputBase>` 에서 다음과 같이 작성합니다.
 
-```
-              <InputBase
-                placeholder="검색하기"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                name="searchKeyword"
-                value={this.state.searchKeyword}
-                onChange={this.handleValueChange}
-              />
+```js
+<InputBase
+  placeholder="검색하기"
+  classes={{
+    root: classes.inputRoot,
+    input: classes.inputInput,
+  }}
+  name="searchKeyword"
+  value={this.state.searchKeyword}
+  onChange={this.handleValueChange}
+/>
 ```
 
 지금까지는 단순히 고객 스테이트가 변경되면 전체 고객을 바로 보여주는 식으로 코드가 동작했습니다. 이제는 전체 고객 컴포넌트를 생성하는 부분을 render() 함수의 가장 윗 부분에서 새롭게 명시해주도록 하겠습니다.
@@ -96,16 +96,16 @@ const filteredComponents = (data) => {
 마지막으로 새로운 고객이 추가된 경우 검색 창 내용도 비워질 수 있도록 처리하겠습니다.
 
 ```js
-  stateRefresh() {
-    this.setState({
-      customers: '',
-      completed: 0,
-      searchKeyword: ''
-    });
-    this.callApi()
-      .then(res => this.setState({customers: res}))
-      .catch(err => console.log(err));
-  }
+stateRefresh() {
+  this.setState({
+    customers: '',
+    completed: 0,
+    searchKeyword: ''
+  });
+  this.callApi()
+    .then(res => this.setState({customers: res}))
+    .catch(err => console.log(err));
+}
 ```
 
 ※ 실행 결과 ※
