@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <header>
+        <resultCode>00</resultCode>
+        <resultMsg>NORMAL SERVICE.</resultMsg>
+    </header>
+    <body>
+        <items>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대청아파트 제303동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85549</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-935</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>21.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 21</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>1</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85239</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>2</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85240</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>3</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85241</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>4</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85242</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>5</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85244</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>6</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85245</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>7</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85246</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>8</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85248</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>9</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+            <item>
+                <bjdongCd>10300</bjdongCd>
+                <bldNm>대치아파트 제217동</bldNm>
+                <block></block>
+                <bun>0012</bun>
+                <bylotCnt>0</bylotCnt>
+                <crtnDay>20171206</crtnDay>
+                <guyukCd></guyukCd>
+                <guyukCdNm></guyukCdNm>
+                <ji>0000</ji>
+                <jiguCd></jiguCd>
+                <jiguCdNm></jiguCdNm>
+                <jiyukCd></jiyukCd>
+                <jiyukCdNm></jiyukCdNm>
+                <lot></lot>
+                <mgmBldrgstPk>11680-85249</mgmBldrgstPk>
+                <mgmUpBldrgstPk>11680-915</mgmUpBldrgstPk>
+                <naBjdongCd>10301</naBjdongCd>
+                <naMainBun>9.0</naMainBun>
+                <naRoadCd>116804166040</naRoadCd>
+                <naSubBun>0.0</naSubBun>
+                <naUgrndCd>0</naUgrndCd>
+                <newPlatPlc> 서울특별시 강남구 개포로109길 9</newPlatPlc>
+                <platGbCd>0</platGbCd>
+                <platPlc>서울특별시 강남구 개포동 12번지</platPlc>
+                <regstrGbCd>2</regstrGbCd>
+                <regstrGbCdNm>집합</regstrGbCdNm>
+                <regstrKindCd>4</regstrKindCd>
+                <regstrKindCdNm>전유부</regstrKindCdNm>
+                <rnum>10</rnum>
+                <sigunguCd>11680</sigunguCd>
+                <splotNm></splotNm>
+            </item>
+        </items>
+        <numOfRows>10</numOfRows>
+        <pageNo>1</pageNo>
+        <totalCount>4336</totalCount>
+    </body>
+</response>
