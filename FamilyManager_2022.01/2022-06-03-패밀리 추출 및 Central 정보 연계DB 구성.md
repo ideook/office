@@ -91,3 +91,63 @@ layout: post
 | KEY    | 매개변수 이름        |
 | VALUE  | 매개변수 값          |
 | IS_USE | 사용여부             |
+
+
+```sql
+CREATE TABLE EKP_BIM.dbo.LoadableFamily (
+	SEQ int IDENTITY(1,1) NOT NULL,
+	ID nvarchar(255) COLLATE Korean_Wansung_CI_AS NULL,
+	ProjectTableID nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	CategoryID nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	CategoryName nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	Name nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	[Parameter] nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	MaterialIDs nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	ModifiedDate nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	CreatedDate nvarchar(MAX) COLLATE Korean_Wansung_CI_AS NULL,
+	CONSTRAINT PK__Loadable__CA1938C09E17F887 PRIMARY KEY (SEQ)
+);
+```
+
+CREATE TABLE TB_FAMILY_PARAMS (
+    SEQ int IDENTITY(1,1) NOT NULL,
+    ID_REL int NULL,
+    BuiltInParameter nvarchar(255) NULL,
+    Name nvarchar(255) NULL,
+    ParameterGroup nvarchar(255) NULL,
+    ParameterType nvarchar(255) NULL,
+    Formula nvarchar(255) NULL,
+    IsProject bit NULL,
+    IsInstance bit NULL,
+    IsReadOnly bit NULL,
+    IsReporting  bit NULL,
+    IsShared bit NULL,
+    StorageType nvarchar(255) NULL,
+    UserModifiable bit NULL,
+    PRIMARY KEY (SEQ)
+);
+
+
+CREATE TABLE TB_FAMILY_FILE (
+SEQ int IDENTITY(1,1) NOT NULL,
+NM_FILE nvarchar(255) NULL,
+EXT_FILE nvarchar(10) NULL,
+PATH_FILE nvarchar(255) NULL,
+VER_RVT nvarchar(255) NULL,
+SZ_FILE nvarchar(255) NULL,
+CHK_FILE nvarchar(255) NULL,
+BY_EXT nvarchar(255) NULL,
+ID_REL_PROJ int NULL,
+IS_USE bit NULL,
+DT_CREAT datetime NULL,
+    PRIMARY KEY (SEQ)
+);
+
+
+CREATE TABLE TB_FAMILY (
+SEQ int IDENTITY(1,1) NOT NULL,
+ID_REL_FILE int NULL,
+NM_CATG nvarchar(255) NULL,
+NM_FML nvarchar(255) NULL,
+    PRIMARY KEY (SEQ)
+);
